@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Design do Logo com espaço negativo */
+.logo-text {
+    letter-spacing: -1.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* Fundo da Hero Section */
+.hero-gradient {
+    background: linear-gradient(135deg, #000000 0%, #262626 100%);
+}
+
+/* Cards de Destino */
+.card-destino {
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: 1px solid #f3f4f6;
+    transition: all 0.3s ease;
+}
+
+.card-destino:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+}
+
+/* Estilização de Inputs */
+input::placeholder {
+    color: #9ca3af;
+}
+
+/* Transições de Hover sutil */
+a {
+    transition: color 0.2s ease;
+}
